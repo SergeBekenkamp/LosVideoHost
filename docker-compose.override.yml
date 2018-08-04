@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  losvideohostbackend:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
